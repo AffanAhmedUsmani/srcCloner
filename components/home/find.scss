@@ -1,0 +1,270 @@
+
+.subject_DropDown {
+  width: 10px; /* Predefined width */
+  white-space: normal; /* Allow text to wrap to the next line */
+  word-wrap: break-word; /* Break words that exceed the width */
+
+  /* Optional: Add some padding or margin to improve spacing */
+  padding: 5px;
+  margin: 2px 0;
+}
+
+.find__main {
+  background-color: #f1f5f9;
+  padding-top: 130px;
+  padding-left: 98px;
+  padding-right: 98px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+  .find_title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1c64f2;
+    text-align: center;
+  }
+  .find_select_subject {
+    margin-top: 52px;
+  width: 40%;
+  height: 44px !important;
+  border-radius: 6px;
+  border: 1px solid #cecece;
+  padding-left: 10px;
+  
+  /* Define a max-width to prevent excessive expansion */
+  max-width: 50%; /* Adjust this value as needed */
+  
+  /* Optional: Set a background color */
+  background-color: #fff;
+  
+  /* Optional: Set a custom appearance */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  
+  /* Optional: Apply custom padding to the dropdown arrow area */
+  padding-right: 30px;
+    
+  }
+  .find_select_address {
+    width: 40%;
+    height: 44px;
+    border-radius: 6px;
+    margin-top: 10px;
+    border: 1px solid #cecece;
+    padding-left: 10px;
+  }
+  .map_find {
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+  }
+  .find_stats_div {
+    background-color: #f8fafc;
+    width: 90%;
+    height: 300px;
+    box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.04),
+      0px 20px 25px -5px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    .find_stat_inner {
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .find_stat_round {
+        width: 142px;
+        height: 142px;
+        border-radius: 50%;
+        background-color: #1c64f2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        > p {
+          font-family: Inter;
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 48px;
+          color: white;
+        }
+      }
+      > p:nth-child(2) {
+        font-family: Inter;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 36px;
+        margin-top: 30px;
+      }
+    }
+  }
+  .find_heading_section {
+    background-color: #f8fafc;
+    width: 90%;
+    height: 500px;
+    box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.04),
+      0px 20px 25px -5px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    border-radius: 10px;
+    padding-top: 113px;
+    padding-left: 103px;
+    padding-bottom: 84px;
+    padding-right: 67px;
+    display: flex;
+    justify-content: space-between;
+    .Heading_section_left {
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      flex-direction: column;
+      width: 40%;
+      > h1 {
+        font-family: Inter;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: start;
+      }
+      > p {
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: justify;
+        margin-top: 22px;
+      }
+    }
+    .Heading_section_right {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      row-gap: 30px;
+      .Heading_section_right1 {
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 43px 20px 25px;
+        background-color: #e1effe;
+        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15),
+          0px 0px 4px 0px rgba(0, 0, 0, 0.12);
+        height: 120px;
+        border-radius: 18px;
+        > p:nth-child(2) {
+          margin-left: 10px;
+          text-align: justify;
+          font-family: Inter;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 20px;
+        }
+      }
+      .Heading_section_right2 {
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 43px 20px 25px;
+        background-color: #DEF7EC;
+        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15),
+          0px 0px 4px 0px rgba(0, 0, 0, 0.12);
+        height: 120px;
+        border-radius: 18px;
+        > p:nth-child(2) {
+          margin-left: 10px;
+          text-align: justify;
+          font-family: Inter;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+  .find_heading_section2 {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    .Heading_section_left_second {
+      display: flex;
+      width: 45%;
+      padding: 61px 82px 42px 82px;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 14px;
+      box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.04),
+        0px 20px 25px -5px rgba(0, 0, 0, 0.1);
+      background-color: #e1effe;
+      border-radius: 18px;
+
+      > h1 {
+        font-family: Inter;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 40px;
+        color: #1c64f2;
+      }
+      > p {
+        text-align: center;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+      }
+    }
+    .Heading_section_left_second22 {
+      display: flex;
+      width: 45%;
+      padding: 61px 82px 42px 82px;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 14px;
+      box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.04),
+        0px 20px 25px -5px rgba(0, 0, 0, 0.1);
+      background-color: #def7ec;
+      border-radius: 18px;
+
+      > h1 {
+        font-family: Inter;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 40px;
+        color: #1c64f2;
+      }
+      > p {
+        text-align: center;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+      }
+    }
+  }
+  .slider_section{
+    width: 100%;
+    background-color: #C3DDFD;
+    height: 600px;
+  }
+}
+
+
+

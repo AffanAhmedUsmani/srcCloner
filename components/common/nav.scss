@@ -1,0 +1,67 @@
+.nav__main {
+  width: 98.7vw;
+  height: 10vh;
+  background-color: #c3ddfd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 96px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+
+  .nav_left {
+    display: flex;
+    width: 33.3%;
+
+    > p {
+      color: #1c64f2;
+      font-size: 24px;
+      font-weight: 600;
+      margin-left: 10px;
+      margin-top: 9px;
+    }
+  }
+
+  .nav_middle {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    justify-content: center;
+    width: 33.3%;
+  }
+
+  .nav_right {
+    width: 33.3%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .btn-dropdown {
+    background-color: #1c64f2;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .dropdown-menu {
+    min-width: auto;
+    top: 100%;
+    left: 0;
+    right: auto;
+  }
+
+  .dropdown-item {
+    width: 100%;
+    white-space: normal;
+    text-align: left;
+    padding: 10px 20px;
+    color: #1c64f2;
+    cursor: pointer;
+  }
+}
